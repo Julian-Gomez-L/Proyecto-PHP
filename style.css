@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+
+    background-color: lightblue;
+}
+
+#container{
+    width: 80%;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+
+#header{
+    height: 110px;  
+    background-color: #630505;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
