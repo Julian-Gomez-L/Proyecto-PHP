@@ -15,7 +15,7 @@ body{
 
 #header{
     height: 145px;  
-    background-color: #630505;
+    background-color: #F0F0F0;
     color: white;
     text-align: center;
     line-height: 100px;
@@ -33,10 +33,10 @@ body{
 }
 
 #menu {
-
+    clear: both;
     background-color: #2222;
     color: white;
-    height: 50px;
+    height: 55px;
     border-bottom: 4px solid #01B1EA;
   
 }
@@ -45,12 +45,13 @@ body{
     list-style: none;
     text-decoration: none;
     margin: 0px auto;
+    margin-left: 25px;
 }
 
 #menu ul li{
         line-height: 55px;
         float: left; /*Para que se organice de izquierda a derecha */
-        border-right: 1px solid#363636;
+        border-right: 1px solid #363636;
 }
 
 #menu a{
@@ -63,4 +64,23 @@ body{
 
 #menu a:hover{   /*pone color sobre el boton cuando se pone el mouse encima*/
     background-color: #01B1EA;
+}
+
+
+
+#content{
+    margin: 0px auto;
+    overflow: hidden;
+    background: white;
+}
+
+/*barra lateral*/
+#lateral{
+    width: 20%;
+    border: 1px solid red;
+}
+
+#central{
+    width: 80%;
+    border: 1px solid blue;
 }
