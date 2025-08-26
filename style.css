@@ -67,7 +67,7 @@ body{
 }
 
 
-
+/*content son como 2 cajas la mas grande container que abarca toda la pagina y una mas pequeña content*/
 #content{
     margin: 0px auto;
     overflow: hidden;
@@ -76,11 +76,41 @@ body{
 
 /*barra lateral*/
 #lateral{
-    width: 20%;
+    width: 18%;
+    min-height: 650px;
+    border: 1px solid red;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+#lateral .block_aside{
+    display: block;
+    
+    margin: 5px;
+    padding: 10px;
     border: 1px solid red;
 }
 
+#lateral h3{
+    display: block;
+    color: #222;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-size: 16px; /*tamaño letra*/
+    font-weight: bold;
+    background: #e1e1e1;
+    border-bottom: 2px;
+}
+
 #central{
-    width: 80%;
+    width: 79.8%;
+    min-height: 650px;
+    float: right;
     border: 1px solid blue;
+    margin-top: 20px;
+    margin-right: 10px;
+    
 }
