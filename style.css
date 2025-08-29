@@ -1,19 +1,19 @@
-*{
+* {
     margin: 0px;
-    padding: 0px;
+    padding: 0px;   
 }
-body{
 
+body {
     background-color: lightblue;
 }
 
-#container{
+#container {
     width: 80%;
     margin: 0px auto;
-    border: 1px solid black; /* borde externo*/
+    border: 1px solid black; /* borde externo */
 }
 
-#header{
+#header {
     height: 145px;  
     background-color: #F0F0F0;
     color: white;
@@ -21,13 +21,13 @@ body{
     line-height: 100px;
 }
 
-#logo{
+#logo {
     padding: 20px;
     margin-left: 20px;
     float: left;
 }
 
-#logo img{
+#logo img {
     float: left;
     height: 100px;
 }
@@ -38,7 +38,6 @@ body{
     color: white;
     height: 55px;
     border-bottom: 4px solid #01B1EA;
-  
 }
 
 #menu ul {
@@ -48,127 +47,120 @@ body{
     margin-left: 25px;
 }
 
-#menu ul li{
-        line-height: 55px;
-        float: left; /*Para que se organice de izquierda a derecha */
-        border-right: 1px solid #363636;
+#menu ul li {
+    line-height: 55px;
+    float: left; /* Para que se organice de izquierda a derecha */
+    border-right: 1px solid #363636;
 }
 
-#menu a{
-    display: block; /* lo quiero de forma de bloque*/
+#menu a {
+    display: block; /* lo quiero de forma de bloque */
     color: white;
     text-decoration: none;
-    padding-left: 12px;/* borde interno*/
+    padding-left: 12px; /* borde interno */
     padding-right: 12px;
 }
 
-#menu a:hover{   /*pone color sobre el boton cuando se pone el mouse encima*/
+#menu a:hover {
     background-color: #01B1EA;
 }
 
-
-/*content son como 2 cajas la mas grande container que abarca toda la pagina y una mas pequeña content*/
-#content{
+/* Barra lateral */
+#content {
     margin: 0px auto;
     overflow: hidden;
     background: white;
 }
 
-/*barra lateral*/
-#lateral{
+/* Barra lateral */
+#lateral {
     width: 18%;
-    min-height: 650px;
+    min-height: 600px;
     border: 1px solid red;
     float: left;
     margin-top: 20px;
     margin-left: 10px;
-
 }
 
-#lateral .block_aside{
+#lateral .block_aside {
     display: block;
-    
     margin: 5px;
     padding: 10px;
     border: 1px solid red;
 }
 
-#lateral h3{
+#lateral h3 {
     display: block;
     color: #222;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
-    font-size: 16px; /*tamaño letra*/
+    font-size: 16px; /* tamaño letra */
     font-weight: bold;
     background: #e1e1e1;
     border-bottom: 5px;
 }
 
 input[type="text"],
-input[type="password"], /* [] estos corchetes son para especificar varios inputs*/ 
-input[type="email"]{
-    display: block;  /* para que se organice como cuadrado que va acompañado del width */
-    width: 95%; /* que porcentaje del recuadro tomara*/
+input[type="password"],
+input[type="email"] {
+    display: block; /* para que se organice como cuadrado que va acompañado del width */
+    width: 95%; /* que porcentaje del recuadro tomará */
     margin-top: 2px;
     margin-bottom: 2px;
     border: 1px solid #c9c9c9;
-    box-shadow: 0px 0px 2px #ccc inset; /*SOMBRA 1 HORIZONTAL, 2 VERTICAL, 3 DIFUMINADO, 4 CURVA POR DENTRO* 5 INSET ES PARA LA SOMBRA POR DENTRO*/
+    box-shadow: 0px 0px 2px #ccc inset; /* Sombra 1 Horizontal, 2 Vertical, 3 Difuminado, 4 Curva por dentro, 5 Inset es para la sombra por dentro */
     background: white;
     padding: 2px;
     color: grey;
     transition: all 300ms;
 }
 
-
 input[type="text"]:focus,
 input[type="password"]:focus,  
-input[type="email"]:focus{
-    border: 1PX solid #1579B5;
+input[type="email"]:focus {
+    border: 1px solid #1579B5;
     color: black;
 }
 
 input[type="submit"],
 input[type="button"],
-.button{
+.button {
     display: block;
-    border-radius: 2px; /*esquinas mas cuadradas*/
+    border-radius: 2px; /* Esquinas más cuadradas */
     padding: 5px;
-    padding-left: 10px; /*tamaño de los laterales del boton*/
+    padding-left: 10px; /* Tamaño de los laterales del botón */
     padding-right: 10px;
     background: #2978cd;
     color: white;
     border: 1px solid #11608e;
     cursor: pointer;
-
 }
 
-
-#central{
-    width: 79.8%;
-    min-height: 650px;
+#central {
+    width: 79%; /* Cambié de 79.8% a 79% */
+    min-height: 600px;
     float: right;
     border: 1px solid blue;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-right: 10px;
     border-left: 1px solid #ccc;
     box-shadow: -5px -1px 5px #ddd;
     padding: 3px;
 }
 
-#central h1{
+#central h1 {
     font-size: 24px;
     font-weight: normal;
     letter-spacing: 1px;
     text-align: center;
-    border-bottom: 1px solid #ccc; /*linea para que se vea en la mitad*/
+    border-bottom: 1px solid #ccc; /* línea para que se vea en la mitad */
     margin-bottom: 20px;
     padding: 20px;
     padding-top: 0px;
-
 }
 
-.product{
+.product {
     width: 30%;
     float: left;
     margin-left: 10px;
@@ -177,16 +169,27 @@ input[type="button"],
     text-align: center;
 }
 
-.product img{
+.product img {
     height: 100px;
     margin-bottom: 10px;
 }
 
-.product a{
+.product a {
     color: black;
-    text-decoration: none;
+    text-decoration: none; /*elimina el subrayado que normalmente tiene los links*/
 }
 
-.product a:hover{
+.product a:hover { /*cuando se pone el mouse encima cambia el color*/
     color: #5555;
 }
+
+#footer {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: black;
+    color: white;
+    border-top: 5px solid #01B1EA;
+}
+
+
