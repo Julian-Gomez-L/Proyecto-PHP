@@ -1,4 +1,4 @@
-<?php
+<?php //modelo es el que conecta con la base de datos
 
 require_once 'config/database.php'; //sirve para no volver a escribir el mismo codigo para realiar una funcion, ejemplo function saliuda(hola) despues saluda()
 
@@ -73,4 +73,11 @@ class Usuario{
     function setImagen(){
         $this->imagen = $imagen;
     }
+        //ficticio pero que funciones para mostrar usuarios
+        public function conseguirTodos(){
+        echo "IMPRIMIENDO TODOS LOS USUARIOS...";
+    }
 }
+
+
+
