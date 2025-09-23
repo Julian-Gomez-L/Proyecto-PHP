@@ -75,8 +75,13 @@ class Usuario{
     }
         //ficticio pero que funciones para mostrar usuarios
         public function conseguirTodos(){
-        echo "IMPRIMIENDO TODOS LOS USUARIOS...";
+        echo "IMPRIMIENDO TODOS LOS USUARIOS ACTIVOS...";
     }
+
+    public function crear (){
+        echo "views/usuario/crear.php";
+    }
+
 }
 
 

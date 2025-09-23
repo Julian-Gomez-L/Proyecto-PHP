@@ -8,5 +8,5 @@
 
     $controlador->mostrarTodos();
     
-
+    $controlador-> crear();
 
