@@ -28,7 +28,7 @@ INSERT INTO t_categorias VALUE(NULL, 'Construccion'),(NULL, 'electricos'),(NULL,
 CREATE TABLE IF NOT EXISTS t_producto(
     id_producto          int(11)     auto_increment  NOT NULL,
     nombre_producto      varchar(100)                NOT NULL,
-    descripciom          varchar(100)                NOT NULL,
+    descripcion          varchar(100)                NOT NULL,
     stock                int(100)                    NOT NULL,
     precio               float(10,9)                 NOT NULL,
     imagen               varchar(255)                NOT NULL,
